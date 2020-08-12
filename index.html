@@ -2,9 +2,27 @@
  <html>
     <style>
         h1 { color:lightslategray; font-family:Impact, Charcoal, sans-serif; text-align:center; font-size:70px;}
-        h2 { color:lightsteelblue; font-family:Courier; text-align:center;}
-        h3 { color:lightsteelblue; font-family:Courier; text-align:center;}
-        body {margin: 40px; background-color: whitesmoke; font-family:Courier new;}
+        h2, h3 { color:lightsteelblue; font-family:Courier; text-align:center;}
+        body { color: lightslategray; margin: 40px; background-color: whitesmoke; font-family:Courier new;}
+        li { display: inline; color: lightslategray}
+        a:link {
+            text-decoration: none;
+            color: lightslategray;
+            }
+        /* visited link */
+        a:visited {
+            text-decoration: none;
+            color: lightslategray;
+        }
+        /* mouse over link */
+        a:hover {
+            color: black;
+            text-decoration: underline;
+         }
+        a:active {
+        color: blue;
+        text-decoration: bold;
+        }
 
     </style>
     <head>
@@ -12,30 +30,24 @@
        <title>Amy Lee</title>
     </head>
     <body>
+
         <h1 id = "site title">AMY LEE</h1>
-        <h2 id = "major">History Major</h2>
-        <h3 id="school">Occidental College Class of 2021</h3>
-        <img style="width:500px;height:700px;padding: 0 50px; float: left;" src="me.jpeg">
-        <ul id="nav" class="hidden-print">
-            <li>
-                <a href="https://alee614.github.io/about_me.html">About</a>
-            </li>
-            <li>
-                <a href="https://www.youtube.com/watch?v=LybgPLBic4k/">Background Music</a>
-            </li>
-            <li>
-                <a href="https://www.oxy.edu/history">Major</a>
-            </li>
-            <li><a href="https://www.historians.org/teaching-and-learning/why-study-history">Why is History Important</a></li>
-            <li>
-                <a href="https://i.kym-cdn.com/entries/icons/original/000/018/489/nick-young-confused-face-300x256-nqlyaa.jpg">Life Goal</a>
-            </li>
+        <ul id="menu" class="hidden-print" style="color:lightslategray; font-family:Courier;">
+        <li><b>Home</b></li>
+        <li><b> | </b></li>
+        <li> <a href="about_me.html">About</a><b> | </b> </li>
+        <li> <a href="https://www.oxy.edu/history">Major</a> </li>
+        <li><b> | </b></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><b> | </b></li>
         </ul>
-        <p1>
+        <img style="width:500px;height:700px;padding: 0 50px; float: left;" src="me.jpeg">
+
+        <p>
             Favorite shows: Brooklyn 99, The Office, Merlin, Dong yi, and Parks and Rec.
             Looking to include research papers, a focus in history, and accomplishments in the future.
-            <br> This is a comp sci lab assignment, so it is bit bare and needs more work done.
-        </p1>
+            This is a comp sci lab assignment, so it is bit bare and needs more work done.
+        </p>
 
         <blockquote>
         "You miss 100% of the shots you don't take."
